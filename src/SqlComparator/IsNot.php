@@ -10,7 +10,7 @@
 
 declare(strict_types = 1);
 
-namespace SqlComparator;
+namespace Kazhytai\SQLComparator\SqlComparator;
 
 final class IsNot extends IsStatement
 {

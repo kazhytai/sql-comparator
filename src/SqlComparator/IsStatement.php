@@ -12,12 +12,12 @@ declare(strict_types = 1);
 
 namespace SqlComparator;
 
-use MP\Utils\TextUtils;
+namespace Kazhytai\SQLComparator\SqlComparator;
 
 abstract class IsStatement implements Comparator
 {
 	/** @var bool|null */
-	protected ?bool $value;
+	protected $value;
 
 	/**
 	 * IsStatement constructor.
@@ -32,7 +32,7 @@ abstract class IsStatement implements Comparator
 	 * @return string
 	 */
 	public function __toString(): string {
-		return TextUtils::boolToString($this->getValue());
+		return $this->boolToString($this->getValue());
 	}
 
 	/**
@@ -47,7 +47,7 @@ abstract class IsStatement implements Comparator
 	 *
 	 * @return $this
 	 */
-	public function setValue($value): IsStatement {
+	public function setValue($value): Comparator {
 		$this->validateValue($value);
 		$this->value = $value;
 
@@ -59,4 +59,12 @@ abstract class IsStatement implements Comparator
 	 */
 	protected function validateValue(?bool $value): void {
 	}
+
+    /**
+     * @param bool $value
+     * @return string
+     */
+    private function boolToString(bool $value): string {
+        return $value ? "true" : "false";
+    }
 }
