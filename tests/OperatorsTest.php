@@ -10,25 +10,25 @@
 
 declare(strict_types=1);
 
-namespace MP\Tests\ServicesTests\CommonService;
+namespace Kazhytai\Tests;
 
 use DateInterval;
 use DateTime;
-use Kazhytai\SQLComparator\SqlComparator\ComparatorException;
-use Kazhytai\SQLComparator\SqlComparator\Eq;
-use Kazhytai\SQLComparator\SqlComparator\Ge;
-use Kazhytai\SQLComparator\SqlComparator\Gt;
-use Kazhytai\SQLComparator\SqlComparator\Is;
-use Kazhytai\SQLComparator\SqlComparator\IsNot;
-use Kazhytai\SQLComparator\SqlComparator\Le;
-use Kazhytai\SQLComparator\SqlComparator\Lt;
-use Kazhytai\SQLComparator\SqlComparator\Ne;
-use SqlComparator\TestEntity;
+use Kazhytai\SQLComparator\Comparator\ComparatorException;
+use Kazhytai\SQLComparator\Comparator\Eq;
+use Kazhytai\SQLComparator\Comparator\Ge;
+use Kazhytai\SQLComparator\Comparator\Gt;
+use Kazhytai\SQLComparator\Comparator\Is;
+use Kazhytai\SQLComparator\Comparator\IsNot;
+use Kazhytai\SQLComparator\Comparator\Le;
+use Kazhytai\SQLComparator\Comparator\Lt;
+use Kazhytai\SQLComparator\Comparator\Ne;
+use Kazhytai\SqlComparator\TestEntity;
 use PHPUnit\Framework\TestCase;
 use Throwable;
 use TypeError;
 
-class SqlOperatorsTest extends TestCase
+class OperatorsTest extends TestCase
 {
     const VALUE_NUMERIC = "11111111.111111111";
     const VALUE_NUMERIC_2 = "2222222222222.222222222";

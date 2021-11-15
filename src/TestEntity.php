@@ -1,6 +1,6 @@
 <?php
 /**
- * @note         <Description>
+ * @note         Test Entity
  * @copyright    Copyright © Real Time Engineering, LLP - All Rights Reserved
  * @license      Proprietary and confidential
  * Unauthorized copying or using of this file, via any medium is strictly prohibited.
@@ -10,7 +10,7 @@
 
 declare(strict_types=1);
 
-namespace SqlComparator;
+namespace Kazhytai\SqlComparator;
 
 class TestEntity
 {

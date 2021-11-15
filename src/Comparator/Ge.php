@@ -1,6 +1,6 @@
 <?php
 /**
- * @note         Is not operator
+ * @note         Greater than or equal to operator
  * @copyright    Copyright © Real Time Engineering, LLP - All Rights Reserved
  * @license      Proprietary and confidential
  * Unauthorized copying or using of this file, via any medium is strictly prohibited.
@@ -8,10 +8,10 @@
  * @author       Written by Kuatbek Kazhytai <kkazhytai@mp.kz>, август 2021
  */
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
-namespace Kazhytai\SQLComparator\SqlComparator;
+namespace Kazhytai\SqlComparator\Comparator;
 
-final class IsNot extends IsStatement
+final class Ge extends Operator
 {
 }
