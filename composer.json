@@ -1,0 +1,16 @@
+{
+    "name": "kazhytai/sql-comparator",
+    "description": "simple sql comparator",
+    "type": "library",
+    "require": {
+        "php": "7.3"
+    },
+    "license": "NUE",
+    "authors": [
+        {
+            "name": "Kuatbek Kazhytai",
+            "email": "kuatbek.kazhytai@nu.edu.kz"
+        }
+    ],
+    "minimum-stability": "stable"
+}
