@@ -20,7 +20,7 @@
     "autoload": {
         "psr-4": {
             "Kazhytai\\SqlComparator\\": "src/",
-            "Kazhytai\\Tests": "tests/"
+            "Kazhytai\\Tests\\": "tests/"
         }
     }
 }
