@@ -9,6 +9,7 @@
         "fakerphp/faker": "^1.9.1",
         "phpunit/phpunit": "^9.0"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "Kuatbek Kazhytai",
