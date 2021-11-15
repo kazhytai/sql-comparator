@@ -12,5 +12,11 @@
             "email": "kuatbek.kazhytai@nu.edu.kz"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Kazhytai\\SqlComparator\\": "src/",
+            "Kazhytai\\Tests": "tests/"
+        }
+    }
 }
