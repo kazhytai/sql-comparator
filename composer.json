@@ -6,7 +6,6 @@
         "php": "7.3"
     },
     "require-dev": {
-        "fakerphp/faker": "^1.9.1",
         "phpunit/phpunit": "^9.0"
     },
     "license": "MIT",
@@ -16,7 +15,7 @@
             "email": "kuatbek.kazhytai@nu.edu.kz"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Kazhytai\\SqlComparator\\": "src/",
